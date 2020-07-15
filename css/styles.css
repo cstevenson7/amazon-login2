@@ -49,7 +49,7 @@ img{
     width: 100%;
     height: 4vh;    
     background-color: goldenrod;
-    border:none;
+    border-color: #a88734 #9c7e31 #846a29;
 }
 
 .create-button{
