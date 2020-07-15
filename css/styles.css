@@ -1,0 +1,50 @@
+container{
+    margin-top: 20px;
+}
+
+fieldset{
+    border: 1px solid rgba(179, 177, 177, 0.712);
+    padding: 20px
+}
+
+input[type="text"]:focus{
+    border-color: gold;
+    box-shadow: 0 5px 5px grey;
+}
+
+img{
+    display: block;  
+    margin: 0 auto;
+}
+
+.continue-button{
+    display: block;
+    width: 100%;  
+    background-color: goldenrod;
+    border:none;
+}
+
+.create-button{
+    display: block;
+    width: 100%;  
+    background-color: gainsboro;
+    border:none;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    color: grey;
+    text-align: center;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid gainsboro;
+}
+.separator::before {
+    margin-right: .25em;
+}
+.separator::after {
+    margin-left: .25em;
+}
